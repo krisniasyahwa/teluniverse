@@ -1,0 +1,213 @@
+ /* @ = mengatur ukuran tabel*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}   
+body {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0; 
+    background: url(bgplanet.png);
+}
+.form-title{
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 6px;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        border-bottom: solid 1px white;
+}
+   
+input, textarea, select, button {
+    font-family: arial;
+    color: #333;
+    font-size: 14px; 
+}
+   
+p, h1, h2, h3, h4, h5, h6, ul {
+    margin: 0; 
+}
+   
+img {
+    max-width: 100%; 
+}
+   
+ul {
+    padding-left: 0;
+    margin-bottom: 0; 
+}
+   
+a:hover {
+    text-decoration: none; 
+}
+   
+:focus {
+    outline: none; 
+}
+   
+.wrapper {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; 
+}
+   
+.inner {
+    width: 100%;
+    max-width: 650px;
+    background: #4E53BE(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset 2px 3px 3px 2px #4285F4;
+    justify-content: center;
+    
+    padding: 20px;
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+     
+}
+.inner .image-holder {
+    width: 315px;
+    height: 283px;
+    padding-left: 45px;
+}
+.inner .image-holder h1{
+    font-size: 10px;
+    color: white;
+    text-align: start;
+}
+.inner .image-holder h2{
+    font-size: 28px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.inner form {
+    width: 50%;
+    padding-top: 36px;
+    padding-left: 45px;
+    padding-right: 45px; 
+}
+.inner h1 {
+    /* text-transform: uppercase; */
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.form-group input {
+    width: 50%;
+}
+.form-group input:first-child {
+    margin-right: 25px; 
+}
+   
+.form-wrapper {
+    position: relative; 
+}
+.form-wrapper i {
+    position: absolute;
+    bottom: 9px;
+    right: 0; 
+}
+   
+.form-control {
+    border: 1px solid #4285F4;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    margin-bottom: 25px;
+    outline: none;
+}
+.form-control::-webkit-input-placeholder {
+    font-size: 14px;
+    color: gray;
+    font-family: arial;
+}
+
+.gender-title{
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+.gender-category{
+    margin: 15px 0;
+    color: white;
+}
+.gender-category label{
+    padding: 0 20px 0 5px;
+}
+.gender-category label,
+.gender-category input,
+.form-submit-btn input{
+    cursor: pointer;
+}
+   
+.form-submit-btn{
+    margin-top: 40px;
+}
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    
+    background: #333;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #571d4f 1px;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #230948, #230948);
+    -webkit-box-shadow: -1px -5px 15px #f7d2ff,
+      5px 5px 15px #3d264f,
+      inset 5px 5px 10px #230948,
+      inset -5px -5px 10px #230948;
+    box-shadow: -1px -5px 15px #3d264f,
+      5px 5px 15px #3d264f,
+      inset 5px 5px 10px #230948,
+      inset -5px -5px 10px #230948;
+}
+.form-submit-btn input:hover{
+    -webkit-box-shadow: 1px 1px 13px #230948,
+      -1px -1px 13px #3d264f;
+    box-shadow: 1px 1px 13px #230948,
+      -1px -1px 13px #3d264f;
+    color: #f7d2ff;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+}
+
+button {
+    border: none;
+    width: 164px;
+    height: 51px;
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 15px;
+    cursor: pointer;
+    display: flex;
+    background: transparent
+}
+button:hover{
+    background: or;
+}
